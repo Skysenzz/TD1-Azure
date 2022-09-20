@@ -2,7 +2,26 @@ const https = require('https');
 
 const unplashApi = 'https://source.unsplash.com/1600x900?dream';
 const quotes = [
-  'PUTE'
+  'J\'ai les dents du fond qui baignent.',
+  'Je vais mettre la viande dans le torchon.',
+  'Je vais couler un bronze.',
+  'Y\'a pas à tortiller du cul pour chier droit.',
+  'Il se mouche pas du coude celui-là.',
+  'J\'ai le cigare au bord des lèvres.',
+  'Je vais lui casser les pattes arrière.',
+  'Y\'a les Anglais qui débarquent.',
+  'T\'as chié dans la colle, mon gars.',
+  'Il a le cul bordé de nouilles celui-là.',
+  'Y\'a une couille dans le potage.',
+  'Comme mes couilles lui, toujours entre mes pattes.',
+  'À la bonne franquette, hein !',
+  'C\'est à se taper le cul par terre.',
+  'Baisse ta culotte, c\'est moi qui pilote.',
+  'Tu vas pas nous chier un sablier.',
+  'T\'as une trichine dans le jambonneau.',
+  'J\'me suis cassé la margoulette.',
+
+
 ];
 
 async function getImage() {
